@@ -2026,13 +2026,6 @@
     "@react-types/shared" "^3.18.1"
     "@swc/helpers" "^0.4.14"
 
-"@react-aria/live-announcer@^3.3.0":
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/@react-aria/live-announcer/-/live-announcer-3.3.0.tgz#04a2a233c2f48c53994f83cafdc4336ec1ea3700"
-  integrity sha512-6diTS6mIf70KdxfGqiDxHV+9Qv8a9A88EqBllzXGF6HWPdcwde/GIEmfpTwj8g1ImNGZYUwDkv4Hd9lFj0MXEg==
-  dependencies:
-    "@swc/helpers" "^0.4.14"
-
 "@react-aria/live-announcer@^3.3.1":
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/@react-aria/live-announcer/-/live-announcer-3.3.1.tgz#bf864b8820fb02daaeefc1c972782a0174fd60b9"
@@ -2474,18 +2467,37 @@
   resolved "https://registry.yarnpkg.com/@sentry-internal/react-inspector/-/react-inspector-6.0.1-4.tgz#10758f3461cf2cf48df8c80f0514c55ca18872c5"
   integrity sha512-uL2RyvW8EqDEchnbo8Hu/c4IpBqM3LLxUpZPHs8o40kynerzPset6bC/m5SU124gEhy4PqjdvJ7DhTYR75NetQ==
 
-"@sentry-internal/rrweb-player@1.108.0":
-  version "1.108.0"
-  resolved "https://registry.yarnpkg.com/@sentry-internal/rrweb-player/-/rrweb-player-1.108.0.tgz#52ccb6f8adc65f0032136a43d02439c43dbbdde6"
-  integrity sha512-KYu75z493qhg8Km9BsjlkA1rr6qx+vF5YHVSMF4e9udsFcYezK3SMp+IFuMVugN/s0uuKIx+FZuVppq18zIyTg==
+"@sentry-internal/rrdom@2.10.0":
+  version "2.10.0"
+  resolved "https://registry.yarnpkg.com/@sentry-internal/rrdom/-/rrdom-2.10.0.tgz#7f86667939a100bee2f82b6d459e275855ccc583"
+  integrity sha512-28G4W8BCdqI8GsO1SYkCBIwuizLwHrg8gE4u77v0zKpiaeIyZjYJ0QqhA/gMrTHLqrfI+FAwGXchnamjci45BA==
   dependencies:
-    "@sentry-internal/rrweb" "1.108.0"
-    "@tsconfig/svelte" "^3.0.0"
+    "@sentry-internal/rrweb-snapshot" "2.10.0"
+
+"@sentry-internal/rrweb-player@2.10.0":
+  version "2.10.0"
+  resolved "https://registry.yarnpkg.com/@sentry-internal/rrweb-player/-/rrweb-player-2.10.0.tgz#1113e43beb27faae03bd90cb422c39aa5f6ec7d9"
+  integrity sha512-DQ0hzPFmm363rgmFiAsvG+1Z32A899Nct/ctFTXYbqsYJbYmR4r1uXqgmzdU5vg/uyReuCinqKCMkh8ovktoaw==
+  dependencies:
+    "@sentry-internal/rrweb" "2.10.0"
+    "@tsconfig/svelte" "^1.0.0"
 
 "@sentry-internal/rrweb-snapshot@1.108.0":
   version "1.108.0"
   resolved "https://registry.yarnpkg.com/@sentry-internal/rrweb-snapshot/-/rrweb-snapshot-1.108.0.tgz#9b09b7e5d6b13d4d7493017ee190b097f9916284"
   integrity sha512-ypR/4oBB8s7d5+7JTkdk+VvlMPRRhbuz3xSFMXShCH2LJ6kINGfYBAYr6rr6o2Bko9j5rVHjYDDrVWkTw4CXSg==
+
+"@sentry-internal/rrweb-snapshot@2.10.0":
+  version "2.10.0"
+  resolved "https://registry.yarnpkg.com/@sentry-internal/rrweb-snapshot/-/rrweb-snapshot-2.10.0.tgz#fa894fad3110fa8b912e41eb328bd956581c0ac0"
+  integrity sha512-/bqbmCzEn8o/hki9Jrng6xIkjczYlPHTEv+C/NDT7Q8A7WJ9KqIpCkljqyoNrD2o9OtwFuPAVgKyIPRkZF9ZfA==
+
+"@sentry-internal/rrweb-types@2.10.0":
+  version "2.10.0"
+  resolved "https://registry.yarnpkg.com/@sentry-internal/rrweb-types/-/rrweb-types-2.10.0.tgz#d9da0362c31c4e96b8649bbc9ab8bb380051caf3"
+  integrity sha512-nnwRrH0O8J+OsOEK3LeVruTv6JovZWEFywdacyfNt2LK7XTCG8182lU6bzPK3Ganb9ps2eOkJqOTRMYUZ1TrMA==
+  dependencies:
+    "@sentry-internal/rrweb-snapshot" "2.10.0"
 
 "@sentry-internal/rrweb@1.108.0":
   version "1.108.0"
@@ -2498,6 +2510,20 @@
     base64-arraybuffer "^1.0.1"
     fflate "^0.4.4"
     mitt "^1.1.3"
+
+"@sentry-internal/rrweb@2.10.0":
+  version "2.10.0"
+  resolved "https://registry.yarnpkg.com/@sentry-internal/rrweb/-/rrweb-2.10.0.tgz#a101f08f4b5de70145dbbdf70e7d2a0ac4d0d83e"
+  integrity sha512-S2xC0xxliCCgfowFImqIK6i9dfaEuTsLrzYkPxxX54OjqjrTsJw41aGxGfYPh+PP6nWMiURuOM5jRZrbvxoH4A==
+  dependencies:
+    "@sentry-internal/rrdom" "2.10.0"
+    "@sentry-internal/rrweb-snapshot" "2.10.0"
+    "@sentry-internal/rrweb-types" "2.10.0"
+    "@types/css-font-loading-module" "0.0.7"
+    "@xstate/fsm" "^1.4.0"
+    base64-arraybuffer "^1.0.1"
+    fflate "^0.4.4"
+    mitt "^3.0.0"
 
 "@sentry-internal/tracing@7.53.1":
   version "7.53.1"
@@ -2818,10 +2844,10 @@
   resolved "https://registry.yarnpkg.com/@tsconfig/node16/-/node16-1.0.2.tgz#423c77877d0569db20e1fc80885ac4118314010e"
   integrity sha512-eZxlbI8GZscaGS7kkc/trHTT5xgrjH3/1n2JDwusC9iahPKWMRvRjJSAN5mCXviuTGQ/lHnhvv8Q1YTpnfz9gA==
 
-"@tsconfig/svelte@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@tsconfig/svelte/-/svelte-3.0.0.tgz#b06e059209f04c414de0069f2f0e2796d979fc6f"
-  integrity sha512-pYrtLtOwku/7r1i9AMONsJMVYAtk3hzOfiGNekhtq5tYBGA7unMve8RvUclKLMT3PrihvJqUmzsRGh0RP84hKg==
+"@tsconfig/svelte@^1.0.0":
+  version "1.0.13"
+  resolved "https://registry.yarnpkg.com/@tsconfig/svelte/-/svelte-1.0.13.tgz#2fa34376627192c0d643ce54964915e2bd3a58e4"
+  integrity sha512-5lYJP45Xllo4yE/RUBccBT32eBlRDbqN8r1/MIvQbKxW3aFqaYPCNgm8D5V20X4ShHcwvYWNlKg3liDh1MlBoA==
 
 "@types/aria-query@^4.2.0":
   version "4.2.1"
@@ -8415,6 +8441,11 @@ mitt@^1.1.3:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/mitt/-/mitt-1.2.0.tgz#cb24e6569c806e31bd4e3995787fe38a04fdf90d"
   integrity sha512-r6lj77KlwqLhIUku9UWYes7KJtsczvolZkzp8hbaDPPaE24OmWl5s539Mytlj22siEQKosZ26qCBgda2PKwoJw==
+
+mitt@^3.0.0:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/mitt/-/mitt-3.0.1.tgz#ea36cf0cc30403601ae074c8f77b7092cdab36d1"
+  integrity sha512-vKivATfr97l2/QBCYAkXYDbrIWPM2IIKEl7YPhjCvKlG3kE2gm+uBo6nEXK3M5/Ffh/FLpKExzOQ3JJoJGFKBw==
 
 mkdirp@^0.5.1:
   version "0.5.5"
