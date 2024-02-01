@@ -33,7 +33,7 @@
     "@react-aria/overlays": "^3.20.0",
     "@react-aria/radio": "^3.10.0",
     "@react-aria/separator": "^3.3.2",
-    "@react-aria/tabs": "^3.6.0",
+    "@react-aria/tabs": "^3.8.3",
     "@react-aria/utils": "^3.17.0",
     "@react-stately/collections": "^3.8.0",
     "@react-stately/menu": "^3.5.2",
