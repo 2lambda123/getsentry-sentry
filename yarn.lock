@@ -2026,13 +2026,6 @@
     "@react-types/shared" "^3.18.1"
     "@swc/helpers" "^0.4.14"
 
-"@react-aria/live-announcer@^3.3.0":
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/@react-aria/live-announcer/-/live-announcer-3.3.0.tgz#04a2a233c2f48c53994f83cafdc4336ec1ea3700"
-  integrity sha512-6diTS6mIf70KdxfGqiDxHV+9Qv8a9A88EqBllzXGF6HWPdcwde/GIEmfpTwj8g1ImNGZYUwDkv4Hd9lFj0MXEg==
-  dependencies:
-    "@swc/helpers" "^0.4.14"
-
 "@react-aria/live-announcer@^3.3.1":
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/@react-aria/live-announcer/-/live-announcer-3.3.1.tgz#bf864b8820fb02daaeefc1c972782a0174fd60b9"
@@ -4684,13 +4677,13 @@ compressible@~2.0.16:
   dependencies:
     mime-db ">= 1.43.0 < 2"
 
-compression-webpack-plugin@10.0.0:
-  version "10.0.0"
-  resolved "https://registry.yarnpkg.com/compression-webpack-plugin/-/compression-webpack-plugin-10.0.0.tgz#3496af1b0dc792e13efc474498838dbff915c823"
-  integrity sha512-wLXLIBwpul/ALcm7Aj+69X0pYT3BYt6DdPn3qrgBIh9YejV9Bju9ShhlAsjujLyWMo6SAweFIWaUoFmXZNuNrg==
+compression-webpack-plugin@11.0.0:
+  version "11.0.0"
+  resolved "https://registry.yarnpkg.com/compression-webpack-plugin/-/compression-webpack-plugin-11.0.0.tgz#d8dfe6a446fb15a8bb7d78da6494098cdae605a7"
+  integrity sha512-Nz9dMiu0sag+mgJ5QTkRx0+vwrDZPU/gps7IdrkFE+oRSkgyoX4wbMol7QnXjI5/TEWx8yEwew9MiMjZgdLtjg==
   dependencies:
-    schema-utils "^4.0.0"
-    serialize-javascript "^6.0.0"
+    schema-utils "^4.2.0"
+    serialize-javascript "^6.0.2"
 
 compression@^1.7.4:
   version "1.7.4"
