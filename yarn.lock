@@ -1980,7 +1980,7 @@
     "@react-types/shared" "^3.22.0"
     "@swc/helpers" "^0.5.0"
 
-"@react-aria/i18n@^3.10.0", "@react-aria/i18n@^3.7.2":
+"@react-aria/i18n@^3.10.0":
   version "3.10.0"
   resolved "https://registry.yarnpkg.com/@react-aria/i18n/-/i18n-3.10.0.tgz#bc61c8d05a0193a4c4322ddaefb4ee382190169a"
   integrity sha512-sviD5Y1pLPG49HHRmVjR+5nONrp0HK219+nu9Y7cDfUhXu2EjyhMS9t/n9/VZ69hHChZ2PnHYLEE2visu9CuCg==
@@ -2035,23 +2035,24 @@
   dependencies:
     "@swc/helpers" "^0.5.0"
 
-"@react-aria/menu@^3.9.1":
-  version "3.9.1"
-  resolved "https://registry.yarnpkg.com/@react-aria/menu/-/menu-3.9.1.tgz#a89f8c65429c50d5247a46fd100454ec3efb37e5"
-  integrity sha512-LRSo7KyVxoFxrjj55VtxMKJ6/c3LhfZThytWFvA9r02Ukf1B0xn/Or8rgyVyHcyekvcmT4IDrjFl1tDG2wsq4g==
+"@react-aria/menu@^3.12.0":
+  version "3.12.0"
+  resolved "https://registry.yarnpkg.com/@react-aria/menu/-/menu-3.12.0.tgz#3daf48b968d0942fdf7f97615898b7deb97f0777"
+  integrity sha512-Nsujv3b61WR0gybDKnBjAeyxDVJOfPLMggRUf9SQDfPWnrPXEsAFxaPaVcAkzlfI4HiQs1IxNwsKFNpc3PPZTQ==
   dependencies:
-    "@react-aria/i18n" "^3.7.2"
-    "@react-aria/interactions" "^3.15.1"
-    "@react-aria/overlays" "^3.14.1"
-    "@react-aria/selection" "^3.15.0"
-    "@react-aria/utils" "^3.17.0"
-    "@react-stately/collections" "^3.8.0"
-    "@react-stately/menu" "^3.5.2"
-    "@react-stately/tree" "^3.6.1"
-    "@react-types/button" "^3.7.3"
-    "@react-types/menu" "^3.9.1"
-    "@react-types/shared" "^3.18.1"
-    "@swc/helpers" "^0.4.14"
+    "@react-aria/focus" "^3.16.0"
+    "@react-aria/i18n" "^3.10.0"
+    "@react-aria/interactions" "^3.20.1"
+    "@react-aria/overlays" "^3.20.0"
+    "@react-aria/selection" "^3.17.3"
+    "@react-aria/utils" "^3.23.0"
+    "@react-stately/collections" "^3.10.4"
+    "@react-stately/menu" "^3.6.0"
+    "@react-stately/tree" "^3.7.5"
+    "@react-types/button" "^3.9.1"
+    "@react-types/menu" "^3.9.6"
+    "@react-types/shared" "^3.22.0"
+    "@swc/helpers" "^0.5.0"
 
 "@react-aria/numberfield@^3.10.2":
   version "3.10.2"
@@ -2070,7 +2071,7 @@
     "@react-types/shared" "^3.22.0"
     "@swc/helpers" "^0.5.0"
 
-"@react-aria/overlays@^3.14.1", "@react-aria/overlays@^3.20.0":
+"@react-aria/overlays@^3.20.0":
   version "3.20.0"
   resolved "https://registry.yarnpkg.com/@react-aria/overlays/-/overlays-3.20.0.tgz#9d7e0529aa9e28f8055ef5d8486ce5aa0ede41dd"
   integrity sha512-2m7MpRJL5UucbEuu08lMHsiFJoDowkJV4JAIFBZYK1NzVH0vF/A+w9HRNM7jRwx2DUxE+iIsZnl8yKV/7KY8OQ==
@@ -2103,7 +2104,7 @@
     "@react-types/shared" "^3.22.0"
     "@swc/helpers" "^0.5.0"
 
-"@react-aria/selection@^3.15.0", "@react-aria/selection@^3.17.3":
+"@react-aria/selection@^3.17.3":
   version "3.17.3"
   resolved "https://registry.yarnpkg.com/@react-aria/selection/-/selection-3.17.3.tgz#ed4b3c51cc9abc72ad19d6beb536b194db1cbd7d"
   integrity sha512-xl2sgeGH61ngQeE05WOWWPVpGRTPMjQEFmsAWEprArFi4Z7ihSZgpGX22l1w7uSmtXM/eN/v0W8hUYUju5iXlQ==
@@ -2232,7 +2233,7 @@
     "@react-types/shared" "^3.22.0"
     "@swc/helpers" "^0.5.0"
 
-"@react-stately/menu@^3.5.2", "@react-stately/menu@^3.6.0":
+"@react-stately/menu@^3.6.0":
   version "3.6.0"
   resolved "https://registry.yarnpkg.com/@react-stately/menu/-/menu-3.6.0.tgz#5366d6674d2c3d7b50efc51a8c0083d9588788f7"
   integrity sha512-OB6CjNyfOkAuirqx1oTL8z8epS9WDzLyrXjmRnxdiCU9EgRXLGAQNECuO7VIpl58oDry8tgRJiJ8fn8FivWSQA==
@@ -2303,7 +2304,7 @@
     "@react-types/shared" "^3.18.1"
     "@swc/helpers" "^0.4.14"
 
-"@react-stately/tree@^3.6.1", "@react-stately/tree@^3.7.5":
+"@react-stately/tree@^3.7.5":
   version "3.7.5"
   resolved "https://registry.yarnpkg.com/@react-stately/tree/-/tree-3.7.5.tgz#6e084e1b7d3d0b31fe619a5d5c45dea9b0a63ff2"
   integrity sha512-xTJVwvhAeY0N5rui4N/TxN7f8hjXdqApDuGDxMZeFAWoQz8Abf7LFKBVQ3OkT6qVr7P+23dgoisUDBhD5a45Hg==
@@ -2365,7 +2366,7 @@
   dependencies:
     "@react-types/shared" "^3.22.0"
 
-"@react-types/menu@^3.9.1", "@react-types/menu@^3.9.6":
+"@react-types/menu@^3.9.6":
   version "3.9.6"
   resolved "https://registry.yarnpkg.com/@react-types/menu/-/menu-3.9.6.tgz#1b36842cbdb4590dfff78437316aec4a3f47b1f6"
   integrity sha512-w/RbFInOf4nNayQDv5c2L8IMJbcFOkBhsT3xvvpTy+CHvJcQdjggwaV1sRiw7eF/PwB81k2CwigmidUzHJhKDg==
