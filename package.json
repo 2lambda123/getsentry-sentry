@@ -87,7 +87,7 @@
     "cbor-web": "^9.0.2",
     "classnames": "2.5.1",
     "color": "^4.2.3",
-    "compression-webpack-plugin": "11.0.0",
+    "compression-webpack-plugin": "11.1.0",
     "copy-webpack-plugin": "^12.0.2",
     "core-js": "^3.36.0",
     "cronstrue": "^2.48.0",
