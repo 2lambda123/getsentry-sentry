@@ -2638,10 +2638,10 @@
     lru_map "^0.3.3"
     tslib "^1.9.3"
 
-"@sentry/profiling-node@^7.106.1":
-  version "7.106.1"
-  resolved "https://registry.yarnpkg.com/@sentry/profiling-node/-/profiling-node-7.106.1.tgz#b29bbf3264eafcfa9e5968e9d412b935421fcf59"
-  integrity sha512-88qgCQOqJG7fcAMRNyQ7b68CBDztL2Gbn4Zatr6UxO9+F12K40NibqVhpX0/P6rAl7xutb6axaTtiw6Xbz42pg==
+"@sentry/profiling-node@^7.110.0":
+  version "7.110.0"
+  resolved "https://registry.yarnpkg.com/@sentry/profiling-node/-/profiling-node-7.110.0.tgz#fb93c23aeef4092cc5590c83cbe6f2e7f094aaa5"
+  integrity sha512-l4KfzYaqC2B9uarnIRZ9R8VKzd38z3NOECSuZTLrePnjNZEMDQ0DDztt3qx+Wc4a5y6w/qHaYnjzQ1J+rAMMog==
   dependencies:
     detect-libc "^2.0.2"
     node-abi "^3.52.0"
