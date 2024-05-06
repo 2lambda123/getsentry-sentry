@@ -151,7 +151,7 @@
     "screenfull": "^6.0.2",
     "scroll-to-element": "^2.0.0",
     "sprintf-js": "1.0.3",
-    "style-loader": "^3.3.1",
+    "style-loader": "^4.0.0",
     "ts-node": "^10.9.1",
     "tslib": "^2.6.2",
     "typescript": "^5.4.2",
