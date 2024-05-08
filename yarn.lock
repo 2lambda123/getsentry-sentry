@@ -2680,10 +2680,10 @@
     localforage "^1.8.1"
     tslib "^1.9.3"
 
-"@sentry/jest-environment@^4.0.0":
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/@sentry/jest-environment/-/jest-environment-4.0.0.tgz#037844bed70c8f13259ee01ab65ff8d36aef0209"
-  integrity sha512-91jLBS8KbX2Ng0aDSP7kdE9sjiLc4qjp/jczTbmvOvuHxoaQ9hSLaEpsthnnUQ/zNeprZMkOC9xlS+zABw3Zmw==
+"@sentry/jest-environment@^5.0.1":
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/@sentry/jest-environment/-/jest-environment-5.0.1.tgz#c819efccdfb9e2461f31e8987ced3c022099e539"
+  integrity sha512-eJ6whiADF+CZwIu5r3KPsbch3zw8KPTXKoIVzJTJ3M/x9W9FW5ENqBrXzL7BfyYmGktyr8XKzZEnPWQN0CMB4A==
 
 "@sentry/node@^7.53.1":
   version "7.54.0"
