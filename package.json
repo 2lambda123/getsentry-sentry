@@ -44,7 +44,7 @@
     "@react-types/shared": "^3.23.0",
     "@sentry-internal/global-search": "^1.0.0",
     "@sentry-internal/react-inspector": "6.0.1-4",
-    "@sentry-internal/rrweb": "2.17.0",
+    "@sentry-internal/rrweb": "2.22.0",
     "@sentry-internal/rrweb-player": "2.18.0",
     "@sentry/integrations": "^7.53.1",
     "@sentry/node": "^7.53.1",
