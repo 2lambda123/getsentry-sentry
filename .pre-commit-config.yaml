@@ -62,7 +62,7 @@ repos:
       args: [ '--project', 'config/pyrightconfig-commithook.json' ]
 
 -   repo: https://github.com/python-jsonschema/check-jsonschema
-    rev: 0.28.4
+    rev: 0.29.0
     hooks:
     - id: check-github-actions
     - id: check-github-workflows
